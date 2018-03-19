@@ -1,0 +1,36 @@
+body{
+	background-color: grey;
+	overflow: hidden;
+	text-align: center;
+}
+
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.centered{
+	padding-top: 50px;
+}
+#bike{
+	transform: translate(-50%, -50%);
+}
+#rear-wheel{
+	transform: translate(-120%, -50%);
+}
+#front-wheel{
+	transform: translate(23%, -50%);
+}
+#frame{
+	transform: translate(-50%, -90%);
+}
+#carriage{
+	transform: translate(-93%, -16%);
+	/*transform-origin: -0.5px*/
+}
+
+#test{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
