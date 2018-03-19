@@ -10,7 +10,7 @@ body{
 	left: 50%;
 }
 .centered{
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 }
 #bike{
 	transform: translate(-50%, -50%);
